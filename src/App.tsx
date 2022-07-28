@@ -12,8 +12,8 @@ function App() {
       <Container maxWidth='sm'>
         <Routes>
           <Route path='/' element={<Home />} />
-          {/* <Route path='/about' element={<About />} />
-          <Route path='/store' element={<Store />} /> */}
+          <Route path='/about' element={<About />} />
+          <Route path='/store' element={<Store />} />
         </Routes>
       </Container>
     </React.Fragment>

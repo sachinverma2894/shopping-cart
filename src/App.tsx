@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          {/* <Route path='/store' element={<Store />} /> */}
+          <Route path='/store' element={<Store />} />
         </Routes>
       </Container>
     </React.Fragment>
